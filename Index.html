@@ -1,0 +1,94 @@
+# Movies63.net
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bollywood Movies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      color: yellow;
+      padding: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .movie {
+      position: relative;
+      background-color: #111;
+      border-radius: 6px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .movie img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .movie-title {
+      font-size: 14px;
+      padding: 5px;
+    }
+
+    .label {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: gold;
+      color: black;
+      font-size: 10px;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+
+    .year {
+      font-size: 12px;
+      color: #ccc;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bollywood</h1>
+
+  <div class="grid">
+
+    <div class="movie">
+      <span class="label">HD</span>
+    <img src="images.webp" alt="Housefull 5 Poster" width="400">
+      <div class="movie-title">Housefull 5 (Hindi)</div>
+      <div class="year">2025</div>
+    </div>
+
+    <div class="movie">
+      <span class="label">HD</span>
+      <img src="https://example.com/romeo.jpg" alt="Romeo S3">
+      <div class="movie-title">Romeo S3 (Hindi)</div>
+      <div class="year">2025</div>
+    </div>
+
+    <!-- Add more movies like above -->
+    
+  </div>
+  <footer>
+    <p>Copyright © 2025 Vishal Sharma</p>
+  </footer>
+
+</body>
+</html
